@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" href="./assets/img/favicon.png" />
+    <script defer src="./assets/js/main.js"></script>
+  </head>
+  <body>
+    <header class="text-gray-400 bg-white-900 body-font">
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+          <a class="mr-5 hover:text-white">Акции</a>
+          <a class="mr-5 hover:text-white">Поиск</a>
+          <a class="mr-5 hover:text-white">Управление бронированием</a>
+          
+        </nav>
+        <a
+          class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-black lg:items-center lg:justify-center mb-4 md:mb-0"
+        >
+          <span class="ml-3 text-xl xl:block lg:hidden">ФОКУС</span>
+        </a>
+        <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+          <button
+            class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+          >
+            Войти
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-4 h-4 ml-1"
+              viewBox="0 0 24 24"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+        <!-- Бронь -->
+      <div class="flex items-center justify-center text-center">
+        <div class="flex flex-col p-2 m-2 max-w-7xl">
+          <div class="text-3xl font-medium">Алгоритм борнирования</div>
+
+          <div
+            class="flex items-center justify-center md:flex-row flex-col space-x-4 p-2"
+          >
+            <div
+              class="flex items-center ml-4 md:ml-0 space-x-2 px-6 py-2 md:w-1/3 w-full"
+            >
+              <div class="flex-col">
+                <div
+                  class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400"
+                >
+                  Шаг 1
+                </div>
+                <div class="italic text-gray-500">
+                  Выбрать дату и время съемки
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center space-x-2 px-6 py-2 md:w-1/3 w-full">
+              <div class="flex-col">
+                <div
+                  class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400"
+                >
+                  Шаг 2
+                </div>
+                <div class="italic text-gray-500">
+                  Выбрать количество участников
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center space-x-2 px-6 py-2 md:w-1/3 w-full">
+              <div class="flex-col">
+                <div
+                  class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400"
+                >
+                  Шаг 3
+                </div>
+                <div class="italic text-gray-500">
+                  Выбрать желаемую локацию для съемки, соответствующую условиям
+                  выше
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex space-x-4 p-2 items-center justify-center md:flex-row flex-col"
+          >
+            <div
+              class="flex items-center ml-4 md:ml-0 space-x-2 px-6 py-2 md:w-1/3 w-full"
+            >
+              <div class="flex-col">
+                <div
+                  class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400"
+                >
+                  Шаг 4
+                </div>
+                <div class="italic text-gray-500">
+                  Зарезервировать конкретные зоны на территории выбранной
+                  локации
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center space-x-2 px-6 py-2 md:w-1/3 w-full">
+              <div class="flex-col">
+                <div
+                  class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400"
+                >
+                  Шаг 5
+                </div>
+                <div class="italic text-gray-500">
+                  Определить перечень дополнительных услуг
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center space-x-2 px-6 py-2 md:w-1/3 w-full">
+              <div class="flex-col">
+                <div
+                  class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400"
+                >
+                  Шаг 6
+                </div>
+                <div class="italic text-gray-500">Оформить заказ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      ></script>
+      <!-- Девиз -->
+      <section class="text-gray-400 bg-white-900 body-font overflow-hidden">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1
+              class="sm:text-4xl text-3xl font-medium title-font mb-2 text-black"
+            >
+              Девиз компании «Фокус»: Сделай жизнь ярче!
+            </h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+              Главная цель компании – сохранить самые яркие моменты жизни
+              клиентов на долгие годы.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Отзывы -->
+      <div
+        class="flex items-center justify-center text-center"
+      >
+        <div
+          class="flex flex-col items-center justify-center rounded-tr-full rounded-bl-full w-full bg-white"
+        >
+          <div class="flex flex-col p-2 m-2 w-full">
+            <div class="text-xl md:text-3xl font-medium">Отзывы</div>
+
+            <div
+              class="flex items-center justify-center md:flex-row flex-col space-x-4 space-y-4 p-2"
+            >
+              <div
+                class="flex-col px-6 py-2 shadow-xl rounded-2xl hover:scale-105 w-[90%] md:w-1/4"
+              >
+                <div
+                  class="h-45 w-40 border-2 border-cyan-500 rounded-full overflow-hidden bg-gray-200"
+                >
+                  <img
+                    src="./assets/images/people/3.jpg"
+                    alt=""
+                    class=""
+                  />
+                </div>
+
+                <div
+                  class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400"
+                >
+                Алина
+                </div>
+                <div class="italic text-gray-500 text-sm">Спасибо большое! Локация "Черная жемчужина" просто супер! Все в бурных эмоциях, фото получились просто огонь!</div>
+                
+              </div>
+              <div
+                class="flex-col px-6 py-2 shadow-xl rounded-2xl hover:scale-105 w-[90%] md:w-1/4"
+              >
+                <div
+                  class="h-45 w-40 border-2 border-cyan-500 rounded-full overflow-hidden bg-gray-200"
+                >
+                  <img
+                    src="./assets/images/people/5.jpg"
+                    alt=""
+                    class=""
+                  />
+                </div>
+
+                <div
+                  class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400"
+                >
+                Марина 
+                </div>
+                <div class="italic text-gray-500 text-sm">Долго думала как отпразновать годовщину свадьбы. Увидела фото ваших локаций и влюбилась!
+                    Отлично провели время с мужем, сделали кучу фото для инстаграмма и даже распечатали несколько на память)</div>
+              </div>
+              <div
+                class="flex-col px-6 py-2 shadow-xl rounded-2xl hover:scale-105 w-[90%] md:w-1/4"
+              >
+                <div
+                  class="h-45 w-40 border-2 border-cyan-500 rounded-full overflow-hidden bg-gray-200"
+                >
+                  <img
+                    src="./assets/images/people/8.jpg"
+                    alt=""
+                    class=""
+                  />
+                </div>
+
+                <div
+                  class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400"
+                >
+                Алена и Ко
+                </div>
+                <div class="italic text-gray-500 text-sm">Всё очень понравилось. 
+                    Воспользовались с девочками услугами вашего фотографа Ильи, теперь фотаемся только у него!</div>
+                
+              </div>
+              <div
+                class="flex-col px-6 py-2 shadow-xl rounded-2xl hover:scale-105 w-[90%] md:w-1/4"
+              >
+                <div
+                  class="h-45 w-40 border-2 border-cyan-500 rounded-full overflow-hidden bg-gray-200"
+                >
+                  <img
+                    src="./assets/images/people/10.jpg"
+                    alt=""
+                    class=""
+                  />
+                </div>
+
+                <div
+                  class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400"
+                >
+                Наталия
+                </div>
+                <div class="italic text-gray-500 text-sm">Уже не первый раз устраиваю себе праздник, организуя фотосессию в ваших локациях. Не дорого, а эмоций на весь день</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      ></script>
+      <!-- Поиск -->
+      <section class="text-gray-400 bg-white-900 body-font relative">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-12">
+            <h1
+              class="sm:text-3xl text-2xl font-medium title-font mb-4 text-black"
+            >
+              Поиск
+            </h1>
+          </div>
+          <div class="lg:w-1/2 md:w-2/3 mx-auto">
+            <div class="flex flex-wrap -m-2">
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="name" class="leading-7 text-sm text-gray-400"
+                    >Выбор региона</label
+                  >
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="w-full bg-white-800 bg-opacity-40 rounded border border-gray-700 focus:border-blue-500 focus:bg-white-900 focus:ring-2 focus:ring-blue-900 text-base outline-none text-black-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
+                </div>
+              </div>
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="email" class="leading-7 text-sm text-gray-400"
+                    >Дата и время съёмки</label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="w-full bg-white-800 bg-opacity-40 rounded border border-gray-700 focus:border-blue-500 focus:bg-white-900 focus:ring-2 focus:ring-blue-900 text-base outline-none text-black-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <div class="relative">
+                  <label for="message" class="leading-7 text-sm text-gray-400"
+                    >Количество участников</label
+                  >
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="w-full bg-white-800 bg-opacity-40 rounded border border-gray-700 focus:border-blue-500 focus:bg-white-900 focus:ring-2 focus:ring-blue-900 h-32 text-base outline-none text-black-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <button
+                  class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"
+                >
+                  Поиск
+                </button>
+              </div>
+              </div>
+            </div>
+      </section>
+      <!-- Акции -->
+      
+      <div class="flex justify-center">
+        <div class="flex flex-col md:flex-row max-w-7xl justify-center items-center">
+            <div class="overflow-hidden w-3/4 md:w-1/3 bg-white m-4 shadow-sm flex flex-col justify-center">
+                <div class="h-15 w-60 overflow-hidden"> <img src="./assets/images/promotions/promotion1.jpg"
+                        alt="" class="" /> </div>
+                
+                <div class="font-bold text-lg text-black m-2">Скидка до 60%. </div>
+                <div class="text-gray-500 m-2 text-sm"><a href="">За заказ зоны (до 5 человек) в локации «Черная жемчужина»</a></div>
+                <button
+                class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"
+              >
+                Подробнее
+              </button>
+            </div>
+            <div class="overflow-hidden w-3/4 md:w-1/3 bg-white m-4 shadow-sm flex flex-col justify-center">
+                <div class="h-15 w-60 overflow-hidden"> <img src="./assets/images/promotions/promotion2.jpg"
+                        alt="" class="" /> </div>
+           
+                <div class="font-bold text-lg text-black m-2">Скидка до 51%</div>
+                <div class="text-gray-500 m-2 text-sm"><a href="">Уютное место для организации детской фото-видео съемки «Поляна сказок»</a></div>
+                        <button
+                        class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"
+                      >
+                        Подробнее
+                      </button>
+            </div>
+            <div class="overflow-hidden w-3/4 md:w-1/3 bg-white m-4 shadow-sm flex flex-col justify-center">
+                <div class="h-15 w-60 overflow-hidden"> <img src="./assets/images/promotions/promotion3.jpg"
+                        alt="" class="" /> </div>
+                <div class="font-bold text-lg text-black m-2">Скидка до 25%.</div>
+                <div class="text-gray-500 m-2 text-sm"><a href="">Закажи праздник "Под ключ"</a></div>
+                        <button
+                        class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"
+                      >
+                        Подробнее
+                      </button>
+            </div>
+        </div>
+     </div>
+     <script src="https://cdn.tailwindcss.com"></script>
+     <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+     <!-- Подписка -->
+     <section class="text-gray-400 bg-white-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-12">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-black">Подпишись на наши закрытые акции</h1>
+            
+          </div>
+          <div class="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:px-0 items-end sm:space-x-4 sm:space-y-0 space-y-4">
+            <div class="relative sm:mb-0 flex-grow w-full">
+              <label for="full-name" class="leading-7 text-sm text-gray-400">Email</label>
+              <input type="text" id="full-name" name="full-name" class="w-full bg-white-800 bg-opacity-40 rounded border border-gray-700 focus:border-blue-500 focus:ring-2 focus:ring-blue-900 focus:bg-transparent text-base outline-none text-black-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+
+            <button class="text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Отправить</button>
+          </div>
+        </div>
+      </section>
+      <!-- Подвал -->
+      <footer class="text-gray-400 bg-white-900 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-black">
+            <span class="ml-3 text-xl">ФОКУС</span>
+          </a>
+          <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+            <a class="mr-5 hover:text-white">Акции</a>
+            <a class="mr-5 hover:text-white">Поиск</a>
+            <a class="mr-5 hover:text-white">Управление бронированием</a>
+            <a class="mr-5 hover:text-white">8 (800) 333-30-30</a>
+          </nav>
+        </div>
+      </footer>
+    </main>
+    <script src="./assets/js/pgia.js"></script>
+  </body>
+</html>
